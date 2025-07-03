@@ -1,5 +1,11 @@
 ## Run PHP/Composer/SymfonyCli from docker
 
+### Build the Docker image
+
+```bash
+docker build -t tools:latest -f Dockerfile .
+```
+
 ### Add to your `~/.bashrc` or `~/.zshrc`
 
 ```bash
